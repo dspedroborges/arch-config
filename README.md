@@ -17,7 +17,7 @@ This document outlines the steps taken to configure an Arch Linux system.
 - Audio: pipewire
 - Power management: power-profiles-daemon
 
-# Firewall
+## Firewall
 
 ```bash
 sudo pacman -S ufw
@@ -31,7 +31,7 @@ sudo ufw status
 sudo ufw enable
 ```
 
-## Allows
+### Allows
 
 ```bash
 sudo ufw allow ssh
@@ -39,15 +39,15 @@ sudo ufw allow http
 sudo ufw allow https
 ```
 
-# Tweaks
-
-- Theme: https://www.gnome-look.org/p/1679919
-
 ### By range
 
 ```bash
-sudo ufw allow 4000:4005/tcp
+sudo ufw allow 4000:4005/tcp 
 ```
+
+## Tweaks
+
+- Theme: [Black Beauty - LXQT theme by Nudnik - Gnome-look.org](https://www.gnome-look.org/p/1679919)
 
 ## Essential Development Tools
 
@@ -73,8 +73,8 @@ sudo pacman -S zig
 
 Ly is a lightweight TUI (Text User Interface) display manager, ideal for simple and fast logins at boot.
 
-*   Ly is a TUI display manager
-*   Good for simple, fast login at boot
+* Ly is a TUI display manager
+* Good for simple, fast login at boot
 
 For more information and installation instructions, visit the official GitHub repository:
 [https://github.com/fairyglade/ly](https://github.com/fairyglade/ly)
