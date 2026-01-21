@@ -231,14 +231,52 @@ sudo pacman -S sqlite
 
 # Other
 
-- VirtualBox
-- Ventoy
-- AnyDesk
-- KeePassXC
-- OpenBoard
-- MarkText
-- LibreOffice
-- gthumb
-- Gimp
-- Krita
-- Audacity
+- `VirtualBox` – run other OSes in a virtual machine
+
+- `Ventoy` – boot multiple ISOs from one USB
+
+- `AnyDesk` – remote desktop access
+
+- `KeePassXC` – password manager
+
+- `OpenBoard` – interactive whiteboard
+
+- `MarkText` – Markdown editor
+
+- `LibreOffice` – office suite
+
+- `Gimp` – image editor
+
+- `Audacity` – audio editor/recorder
+
+- `Qbittorrent` – torrent client
+
+- `Okular` – document viewer (PDF, EPUB, etc.)
+
+- `yt-dlp` – download videos/audio from web
+
+- `KDE Connect` – phone-desktop integration
+
+- `Timeshift` – system snapshots & restore
+
+- `Espanso` – text expansion
+
+- `Btop` / `ytop` / `glances` / `htop` – system monitoring
+
+- `Fastfetch` – system info summary
+
+- `Wireshark` / `mitmproxy` – network analysis & debugging
+
+- `Waydroid` – run Android apps on Linux
+
+- `nmap` – scan networks
+
+- `stress-ng` – stress test CPU, memory, disks
+
+- `memtest86+` – check RAM for errors
+
+- `smartmontools` (`smartctl`) – monitor HDD/SSD health, predict failures
+
+- `lm-sensors` – CPU, GPU, motherboard temps, fan speeds
+
+- `hddtemp` – check hard drive temperature
