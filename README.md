@@ -232,3 +232,4 @@ sudo pacman -S sqlite
 # Other
 
 - VirtualBox
+- Ventoy
