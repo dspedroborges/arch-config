@@ -235,3 +235,10 @@ sudo pacman -S sqlite
 - Ventoy
 - AnyDesk
 - KeePassXC
+- OpenBoard
+- MarkText
+- LibreOffice
+- gthumb
+- Gimp
+- Krita
+- Audacity
