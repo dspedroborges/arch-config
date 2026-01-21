@@ -233,3 +233,5 @@ sudo pacman -S sqlite
 
 - VirtualBox
 - Ventoy
+- AnyDesk
+- KeePassXC
