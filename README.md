@@ -280,3 +280,7 @@ sudo pacman -S sqlite
 - `lm-sensors` – CPU, GPU, motherboard temps, fan speeds
 
 - `hddtemp` – check hard drive temperature
+
+- `Quod Libet` – music player
+
+- `Freetube` – youtube without ads, sponsor and with option to download videos
