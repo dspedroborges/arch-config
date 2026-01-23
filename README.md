@@ -47,7 +47,12 @@ sudo ufw allow 4000:4005/tcp
 
 ## Tweaks
 
-- Theme: [Black Beauty - LXQT theme by Nudnik - Gnome-look.org](https://www.gnome-look.org/p/1679919)
+- Openbox Themes: https://www.box-look.org/browse?cat=140&ord=latest
+- LXQt Themes: https://www.opendesktop.org/browse?cat=446
+
+```bash
+sudo mv path/to/theme /usr/share/themes/
+```
 
 ## Essential Development Tools
 
@@ -67,6 +72,12 @@ Install Zig, a general-purpose programming language and toolchain.
 sudo pacman -S zig
 ```
 
+## Trash Can
+
+```bash
+sudo pacman -S gvfs-bin gvfs-smb
+```
+
 ## Display Manager
 
 ### Ly
@@ -78,6 +89,14 @@ Ly is a lightweight TUI (Text User Interface) display manager, ideal for simple 
 
 For more information and installation instructions, visit the official GitHub repository:
 [https://github.com/fairyglade/ly](https://github.com/fairyglade/ly)
+
+## Lock Screen
+
+### xsecurelock
+
+```bash
+sudo pacman -S xsecurelock
+```
 
 ## AUR Helper
 
