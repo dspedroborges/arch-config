@@ -130,7 +130,16 @@ Kitty is a fast, feature-rich, GPU-based terminal emulator.
 Install Kitty using the official installer script:
 
 ```bash
-curl -L https://sw.kovidgoyal.net/kitty/installer.sh | sh /dev/stdin
+sudo pacman -S kitty
+```
+
+```bash
+kitty +kitten themes
+```
+
+```bash
+vim ~/.config/kitty/kitty.conf
+enable_audio_bell no
 ```
 
 After installation, change the default terminal emulator in your XFCE4 settings: `settings > default applications > utilities > terminal emulator`.
@@ -250,56 +259,81 @@ sudo pacman -S sqlite
 
 # Other
 
-- `VirtualBox` – run other OSes in a virtual machine
+## Virtualization
+- **VirtualBox** – Run other OSes in a virtual machine  
+  - **Arch Linux:** `sudo pacman -S virtualbox`  
+  - **AUR (for extension pack):** `yay -S virtualbox-ext-oracle`
 
-- `Ventoy` – boot multiple ISOs from one USB
+## Bootable USB / OS Tools
+- **Ventoy** – Boot multiple ISOs from one USB  
+  - **Arch Linux:** `yay -S ventoy-bin`  
+  - **Other OSes:** Download installer from [Ventoy website](https://www.ventoy.net/)
 
-- `AnyDesk` – remote desktop access
+## Remote Access
+- **AnyDesk** – Remote desktop access  
+  - **Arch Linux:** `yay -S anydesk`  
+  - **Other OSes:** Download installer from [AnyDesk website](https://anydesk.com/)
 
-- `KeePassXC` – password manager
+## Password Management
+- **KeePassXC** – Password manager  
+  - **Arch Linux:** `sudo pacman -S keepassxc`  
 
-- `OpenBoard` – interactive whiteboard
+## Productivity & Office
+- **LibreOffice** – Office suite  
+  - **Arch Linux:** `sudo pacman -S libreoffice-fresh`  
+- **MarkText** – Markdown editor  
+  - **Arch Linux:** `yay -S marktext-bin`  
+- **OpenBoard** – Interactive whiteboard  
+  - **Arch Linux:** `yay -S openboard`
 
-- `MarkText` – Markdown editor
+## Multimedia
+- **Gimp** – Image editor  
+  - **Arch Linux:** `sudo pacman -S gimp`  
+- **Audacity** – Audio editor/recorder  
+  - **Arch Linux:** `sudo pacman -S audacity`  
+- **Quod Libet** – Music player  
+  - **Arch Linux:** `sudo pacman -S quodlibet`  
+- **Freetube** – YouTube without ads, option to download videos  
+  - **Arch Linux:** `yay -S freetube-bin`
 
-- `LibreOffice` – office suite
+## Download & Torrent Tools
+- **Qbittorrent** – Torrent client  
+  - **Arch Linux:** `sudo pacman -S qbittorrent`  
+- **yt-dlp** – Download videos/audio from web  
+  - **Arch Linux:** `sudo pacman -S yt-dlp`  
 
-- `Gimp` – image editor
+## System Integration & Utilities
+- **KDE Connect** – Phone-desktop integration  
+  - **Arch Linux:** `sudo pacman -S kdeconnect`  
+- **Timeshift** – System snapshots & restore  
+  - **Arch Linux:** `sudo pacman -S timeshift`  
+- **Espanso** – Text expansion  
+  - **Arch Linux:** `yay -S espanso`
 
-- `Audacity` – audio editor/recorder
+## System Monitoring
+- **Btop / ytop / glances / htop** – System monitoring  
+  - **Arch Linux:** `sudo pacman -S btop ytop glances htop`  
+- **Fastfetch** – System info summary  
+  - **Arch Linux:** `yay -S fastfetch-bin`  
+- **lm-sensors** – CPU, GPU, motherboard temps, fan speeds  
+  - **Arch Linux:** `sudo pacman -S lm_sensors` then `sudo sensors-detect`  
+- **hddtemp** – Check hard drive temperature  
+  - **Arch Linux:** `sudo pacman -S hddtemp`  
+- **smartmontools (smartctl)** – Monitor HDD/SSD health  
+  - **Arch Linux:** `sudo pacman -S smartmontools`
 
-- `Qbittorrent` – torrent client
+## Networking & Security
+- **Wireshark / mitmproxy** – Network analysis & debugging  
+  - **Arch Linux:** `sudo pacman -S wireshark-qt mitmproxy`  
+- **nmap** – Scan networks  
+  - **Arch Linux:** `sudo pacman -S nmap`
 
-- `Okular` – document viewer (PDF, EPUB, etc.)
+## Android on Linux
+- **Waydroid** – Run Android apps on Linux  
+  - **Arch Linux:** `yay -S waydroid-git`  
 
-- `yt-dlp` – download videos/audio from web
-
-- `KDE Connect` – phone-desktop integration
-
-- `Timeshift` – system snapshots & restore
-
-- `Espanso` – text expansion
-
-- `Btop` / `ytop` / `glances` / `htop` – system monitoring
-
-- `Fastfetch` – system info summary
-
-- `Wireshark` / `mitmproxy` – network analysis & debugging
-
-- `Waydroid` – run Android apps on Linux
-
-- `nmap` – scan networks
-
-- `stress-ng` – stress test CPU, memory, disks
-
-- `memtest86+` – check RAM for errors
-
-- `smartmontools` (`smartctl`) – monitor HDD/SSD health, predict failures
-
-- `lm-sensors` – CPU, GPU, motherboard temps, fan speeds
-
-- `hddtemp` – check hard drive temperature
-
-- `Quod Libet` – music player
-
-- `Freetube` – youtube without ads, sponsor and with option to download videos
+## Stress Testing & Diagnostics
+- **stress-ng** – Stress test CPU, memory, disks  
+  - **Arch Linux:** `sudo pacman -S stress-ng`  
+- **memtest86+** – Check RAM for errors  
+  - **Arch Linux:** `sudo pacman -S memtest86+` (boot from GRUB/USB)  
