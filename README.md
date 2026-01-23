@@ -191,6 +191,7 @@ Install VLC media player, a highly versatile multimedia player.
 
 ```bash
 sudo pacman -S vlc
+sudo pacman -S ffmpeg
 ```
 
 ## Streaming and Recording
